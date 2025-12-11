@@ -9,7 +9,7 @@
 
 
 const MapNode:INVALID_MAP_NODE_ID = MapNode:-1;
-const Path:INVALID_PATH_ID = Path:-1;
+const Path:INVALID_GPS_PATH_ID = Path:-1;
 const Connection:INVALID_CONNECTION_ID = Connection:-1;
 
 enum _:GPS_ERROR 
