@@ -116,7 +116,7 @@ Include in your code and begin using the library:
 
 `FindPathThreaded(MapNode:source, MapNode:target, const callback[], const format[] = "", {Float, _}:...)`
 
-* If both of the specified map nodes are valid, returns `GPS_ERROR_NONE` and tries to find a path from `source` to `target`. After pathfinding is finished, calls the specified callback and passes the path ID (could be `INVALID_PATH_ID` if pathfinding fails) and the specified arguments to it.
+* If both of the specified map nodes are valid, returns `GPS_ERROR_NONE` and tries to find a path from `source` to `target`. After pathfinding is finished, calls the specified callback and passes the path ID (could be `INVALID_GPS_PATH_ID` if pathfinding fails) and the specified arguments to it.
 
 `Task:FindPathAsync(MapNode:source, MapNode:target)`
 
